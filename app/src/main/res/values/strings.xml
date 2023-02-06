@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">fragment_with_view_binding</string>
+    <string name="Fragment">Fragment\nwith\nviewBinding</string>
+    <string name="button">strat</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="status">Status</string>
 </resources>
