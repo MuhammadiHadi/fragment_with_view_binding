@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="button">#E65454</color>
+    <color name="home">#5474E6</color>
+    <color name="chat">#9A3C5C</color>
+    <color name="status">#FFEB3B</color>
 </resources>
