@@ -3,6 +3,7 @@ package com.example.fragment_with_view_binding
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.fragment_with_view_binding.databinding.ActivityMain2Binding
 import com.example.fragment_with_view_binding.fragment.Chat
@@ -22,14 +23,19 @@ class MainActivity2 : AppCompatActivity() {
 
 
         viewBinding.home.setOnClickListener {
-
+            Toast.makeText(this,
+                "Home",Toast.LENGTH_SHORT).show()
             replaceFragment(Home())
         }
         viewBinding.chat.setOnClickListener {
             replaceFragment(Chat())
+            Toast.makeText(this,
+                "Chat",Toast.LENGTH_SHORT).show()
         }
         viewBinding.status.setOnClickListener {
             replaceFragment(Status())
+            Toast.makeText(this,
+                "Status",Toast.LENGTH_SHORT).show()
         }
     }
     fun replaceFragment(Fragment: Fragment){
